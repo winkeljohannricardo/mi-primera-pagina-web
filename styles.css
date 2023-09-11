@@ -1,45 +1,93 @@
-/* Estilos generales */
+/* Estilos globales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #7686b9;
 }
 
 header {
-    background-color: #333;
+    background-color: #232e8d;
     color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
-header h1 {
-    margin: 0;
+nav ul {
+    list-style: none;
     padding: 0;
 }
 
-main {
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.container {
     max-width: 800px;
-    margin: 20px auto;
+    margin: 0 auto;
     padding: 20px;
 }
 
-/* Estilos para la sección "Sobre mí" */
-section {
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
-    padding: 20px;
+/* Estilos para la sección "Sobre Mí" */
+#about {
+    text-align: center;
+    padding: 80px 0;
 }
 
-section h2 {
-    color: #333;
+#about img {
+    max-width: 20%; /* Puedes ajustar este valor según tu diseño */
+    display: block; /* Para centrar horizontalmente la imagen */
+    margin: 0 auto; /* Para centrar horizontalmente la imagen */
 }
 
-/* Estilos para enlaces */
-a {
-    color: #007BFF;
+#about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la sección "Portafolio" */
+#portfolio {
+    background-color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#portfolio h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la sección "Contacto" */
+#contact {
+    text-align: center;
+    padding: 60px 0;
+}
+
+#contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Enlaces de navegación */
+nav a {
     text-decoration: none;
+    color: #fff;
 }
 
-a:hover {
-    text-decoration: underline;
+/* Enlace activo */
+nav a.current {
+    font-weight: bold;
 }
