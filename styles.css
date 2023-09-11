@@ -35,7 +35,7 @@ nav ul li {
 }
 
 #about img {
-    max-width: 20%; /* Puedes ajustar este valor según tu diseño */
+    max-width: 15%; /* Puedes ajustar este valor según tu diseño */
     display: block; /* Para centrar horizontalmente la imagen */
     margin: 0 auto; /* Para centrar horizontalmente la imagen */
 }
